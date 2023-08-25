@@ -1,0 +1,57 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  color: white;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  width: 200px;
+  height: 300px;
+  padding: 40px;
+}
+
+.button-sedan {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+  width: 200px;
+  height: 300px;
+  padding: 40px;
+}
+.button-suvs {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  width: 200px;
+  height: 300px;
+  padding: 40px;
+}
+
+.button-luxury {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 10px 20px;
+  color: hsl(179, 100%, 13%);
+}
